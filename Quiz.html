@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Quiz.css">
+  <title>Quiz Website</title>
+</head>
+<body>
+  <!--Header Section-->
+  <div class="main">
+  <div class="header">
+     <a href="" class="logo">Quizivo</a>
+     <nav class="navbar">
+       <a href="Home" class="active">Home</a>
+       <a href="About">About</a>
+       <a href="Services">Services</a>
+       <a href="Contact">Contact</a>
+     </nav>
+  </div>
+
+  <!--Home Section-->
+  <div class="container">
+    <section class="quiz-section">
+      <div class="quiz-box">
+        <h1>The Quizze's</h1>
+        <div class="quiz-header">
+          <span>Quiz Website Tutorials</span>
+          <span class="quiz-score">Score: 0 / 5</span>
+        </div>
+       <h2 class="quiz-question">What does HTML stand for ?</h2>
+        <div class="option-list">
+        <div class="option">
+          <span>Hyper Text Markup Language</span>
+        </div>
+        <div class="option">
+          <span>Hyper Text Making Language</span>
+        </div>
+        <div class="option">
+          <span>Hyper Text Multiple Language</span>
+        </div>
+        <div class="option">
+          <span>Hyper Text Multi Language</span>
+        </div>
+        </div>
+        <div class="quiz-footer">
+          <span class="question-total"></span>
+          <button class="next-btn">Next</button>
+        </div>
+      </div>
+      <div class="result-box">
+        <h2>Quiz Result!</h2>
+        <div class="percentage-container">
+          <div class="circular-progress">
+            <span class="progress-value">0%</span>
+          </div>
+          <span class="score-text">Your score 0 out of 5</span>
+        </div>
+        <div class="buttons">
+          <button class="tryAgain-btn">Try Again</button>
+          <button class="goHome-btn">Go To Home</button>
+        </div>
+      </div>
+
+    </section>
+  <section class="home">
+    <div class="home-content">
+    <h1>Quiz Website</h1>
+    <p>Welcome to our interactive quiz website! Test your knowledge by taking this quiz and also enjoy it's 
+      user friendly experience with interactive features.
+      Start Quizzing now and test your expertise!
+      </p>
+      <button class="start-btn">Start Quiz</button>
+    </div>
+  </section>
+</div>
+</div>
+
+ <div class="popup-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1. You will score point one for every correct answer.</span>
+    <span class="info">2. There is no negative marking for wrong answer.</span>
+    <span class="info">3. You can't go back once you have attempt the question .</span>
+    <span class="info">4. Your percentage score will be shown at the end of quiz.</span>
+    <span class="info">5. You can try again the quiz the clicking on Try Again button.</span>
+    <div class="btn-grp">
+      <button class="exit-btn">Exit Quiz</button>
+      <button class="cont-btn">Continue</button>
+    </div>
+  </div> 
+ 
+
+  <script src="Quiz.js"></script>
+  <script src="Questions.js"></script>
+</body>
+</html>

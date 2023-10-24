@@ -1,0 +1,2 @@
+# Quiz Website
+This is a dynamic quiz website made using javascript which allows the users to dynamically render questions, answer options and provide feedback upon user’s selection and also integrate a scoring system to track the progress and scores at the end of quiz session.
