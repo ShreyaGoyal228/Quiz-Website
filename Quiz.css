@@ -207,24 +207,9 @@ body{
   font-size: 16px;
    text-align: center; 
    margin-bottom: 25px;
-   overflow: hidden;
-   border-right: .10em solid #099ee8;
-   margin: 0 auto; 
+   overflow: hidden; 
    letter-spacing: .05em; 
-   animation: 
-     typing 3.5s steps(40, end),
-     blink-caret .75s step-end infinite;
  }
- @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
 .home-content .start-btn{
   width:190px;
   height:55px;
@@ -341,7 +326,7 @@ body{
   margin: 20px 0 40px;
 }
 .quiz-section .result-box .percentage-container .circular-progress{
-  position: relative;
+  /* position: relative; */
   background: conic-gradient(#1ca7ed 3.6deg, rgba(255,255,255,.1) 0deg);
   width:215px;
   height: 215px;
@@ -349,12 +334,11 @@ body{
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  position: relative;
 }
 .quiz-section .result-box .percentage-container .circular-progress::before{
   content: ' ';
   position: absolute;
-  background: #09001d;
+   background: #09001d; 
   width:185px;
   height: 185px;
   border-radius: 50%;
